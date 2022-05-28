@@ -1,0 +1,73 @@
+:host{
+    padding: 30px;
+    background-color: var(--color3);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 325px;
+    height: 270px;
+}
+.star{
+    background-color: rgb(57, 67, 78);
+    border-radius: 50%;
+    width: fit-content;
+    padding: 10px;
+
+    fa-icon{
+    color: orange;
+    }
+}
+
+h2 {
+    color: white;
+    margin: 0;
+}
+
+p {
+    color: var(--color2);
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    li div{
+        color: var(--color2);
+        background-color: rgb(57, 67, 78);
+        width: 10px;
+        padding: 15px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li div:hover{
+        background-color: var(--color2);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.submit{
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.submit:hover {
+    color: orange;
+    background-color: white;
+}
+
+.clicked{
+    background-color: orange !important;
+    color: white !important;
+}
+
+.unClicked {
+    color: var(--color2) !important;
+        background-color: rgb(57, 67, 78) !important;
+}
